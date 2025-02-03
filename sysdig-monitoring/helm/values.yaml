@@ -1,0 +1,8 @@
+sysdig:
+  accessKey: "ACCESS_KEY"
+  settings:
+    collector: "collector.sysdigcloud.com"
+    ssl: true
+    k8sAuditDetections:
+      enabled: true
+

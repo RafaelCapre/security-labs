@@ -1,0 +1,6 @@
+- rule: "Detectar Execução de Shell dentro de Containers"
+  desc: "Alerta se um shell interativo for aberto dentro de um container"
+  condition: "container.id != host and evt.type = execve and evt.arg.filename in (bash, sh, zsh, csh, ksh)"
+  output: "Shell executado dentro do container (Comando: %evt.arg.filename)"
+  priority: WARNING
+
