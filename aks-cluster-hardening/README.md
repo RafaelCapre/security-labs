@@ -24,7 +24,7 @@ For **GitOps and configuration management**, refer to the separate repository: [
 ### **Cluster Creation with Terraform**
 The cluster was provisioned using **Terraform**, ensuring secure configurations for resources like Resource Groups, Virtual Networks, and the AKS cluster itself.
 
-![Cluster Creation](./images/create-cluster.PNG)
+![Cluster Creation](./images/create-clustet.PNG)
 
 > **Explanation**:  
 > - Resource Group, Virtual Network, and Subnet were created first.  
