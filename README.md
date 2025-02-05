@@ -10,45 +10,44 @@ Each section contains **tested configurations, automation scripts, and security 
 
 ## 📂 Repository Structure
 
-### **1️⃣ AKS Cluster Hardening** (`aks-cluster-hardening/`)
+### ** AKS Cluster Hardening** (`aks-cluster-hardening/`)
 ✅ Terraform scripts for AKS provisioning with **hardened security settings**.  
 ✅ **RBAC & GitOps security management** (FluxCD + Kubernetes RBAC).  
 ✅ **Network Policies for microsegmentation & traffic control**.  
 ✅ **Best practices to reduce the attack surface**.
 
-### **2️⃣ Sysdig Monitoring** (`sysdig-monitoring/`)
+### ** Sysdig Monitoring** (`sysdig-monitoring/`)
 ✅ **Installation scripts** for Sysdig (via Helm).  
 ✅ **Custom security rules** for detecting threats inside containers.  
 ✅ **Monitoring dashboards** for threat visibility in Kubernetes.  
 ✅ **Incident response integration**.
 
-### **3️⃣ Ransomware Simulations** (`ransomware-simulations/`)
+### ** Ransomware Simulations** (`ransomware-simulations/`)
 ✅ **Hands-on labs to simulate ransomware attacks** inside Kubernetes.  
 ✅ **Defense techniques to prevent encryption of persistent volumes**.  
 ✅ **Detection & mitigation strategies for real-world scenarios**.
 
-### **4️⃣ Incident Response** (`incident-response/`)
+### ** Incident Response** (`incident-response/`)
 ✅ **Playbooks for handling security incidents in AKS/EKS/GKE**.  
 ✅ **How to investigate Kubernetes attacks & collect forensic evidence**.  
 ✅ **Automated response workflows** to mitigate ongoing threats.
 
-### **5️⃣ Hardening Guides** (`hardening-guides/`)
+### ** Hardening Guides** (`hardening-guides/`)
 ✅ **Guides for securing Kubernetes clusters**.  
 ✅ **Configuration recommendations for cloud-native security**.  
 ✅ **How to avoid common misconfigurations** that lead to exploits.
 
-### **6️⃣ Monitoring & Threat Detection** (`monitoring/`)
+### ** Monitoring & Threat Detection** (`monitoring/`)
 ✅ **Azure Defender for Containers setup & security insights**.  
 ✅ **Alternative monitoring tools (Sysdig, Falco, Cilium Hubble, etc.)**.  
 ✅ **Log analysis & anomaly detection** in Kubernetes environments.
 
-
-### **8️⃣ Labs & Challenges** (`labs/`)
+### ** Labs & Challenges** (`labs/`)
 ✅ **Hands-on security challenges** for the community.  
 ✅ **Practical exercises to test & improve Kubernetes security skills**.  
 ✅ **Guided scenarios for red & blue team practices**.
 
-### **9️⃣ Security Tools & Scripts** (`tools/`)
+### ** Security Tools & Scripts** (`tools/`)
 ✅ **Custom scripts for Kubernetes security automation**.  
 ✅ **YAML manifests for security policies**.  
 ✅ **Terraform templates for secure infrastructure**.
