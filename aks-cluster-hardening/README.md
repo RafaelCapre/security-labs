@@ -3,13 +3,13 @@
 
 ---
 
-## **📌 Overview**
+## **Overview**
 This project focuses on **hardening an AKS cluster** by implementing best practices, including:
 - **Secure infrastructure provisioning with Terraform**
 - **Applying RBAC policies for least privilege**
 - **Enforcing Network Policies for traffic control**
 
-For **GitOps and configuration management**, refer to the separate repository: [AKS-GITOPS-SECURITY](https://github.com/your-repo/aks-gitops-security).
+For **GitOps and configuration management**, refer to the separate repository: [AKS-GITOPS-SECURITY](https://github.com/RafaelCapre/aks-gitops-security).
 
 ---
 
