@@ -1,4 +1,4 @@
-# **🔒 AKS Cluster Hardening**
+# **AKS Cluster Hardening**
 **Step-by-step guide to secure and harden an Azure Kubernetes Service (AKS) cluster.**
 
 ---
@@ -13,11 +13,11 @@ For **GitOps and configuration management**, refer to the separate repository: [
 
 ---
 
-## **📁 Project Structure**
-- 📂 **terraform/** → Terraform files to provision AKS securely  
-- 📂 **rbac/** → Role-Based Access Control (RBAC) configurations  
-- 📂 **network-policies/** → Network Policies to isolate and secure traffic  
-- 📂 **images/** → Screenshots and visual documentation  
+## **Project Structure**
+- **terraform/** → Terraform files to provision AKS securely  
+- **rbac/** → Role-Based Access Control (RBAC) configurations  
+- **network-policies/** → Network Policies to isolate and secure traffic  
+- **images/** → Screenshots and visual documentation  
 
 ---
 
